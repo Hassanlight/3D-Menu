@@ -76,9 +76,9 @@ const foods = [
     { name: "Taco", price: "7$", img: "assests/taco.png", bg: "#ff9800", description: "Spicy Mexican street tacos", signature: false },
     { name: "Ice Cream", price: "5$", img: "assests/ice-cream.png", bg: "#ffccff", description: "Creamy vanilla ice cream", signature: false },
     { name: "Sushi", price: "20$", img: "assests/sushi.jpg", bg: "#66ccff", description: "Fresh salmon and tuna rolls", signature: true },
-    { name: "Hot Dog", price: "10$", img: "assests/hot-dog.jpg", bg: "#d35400", description: "Classic American hot dog", signature: false },
+    { name: "Hot Dog", price: "10$", img: "assests/hot-dog.png", bg: "#d35400", description: "Classic American hot dog", signature: false },
     { name: "Noodles", price: "15$", img: "assests/noodles.png", bg: "#ffc107", description: "Stir-fried Asian noodles", signature: false },
-    { name: "Pasta", price: "25$", img: "assests/pasta.jpg", bg: "#e67e22", description: "Italian pasta with tomato sauce", signature: true },
+    { name: "Pasta", price: "25$", img: "assests/pasta.png", bg: "#e67e22", description: "Italian pasta with tomato sauce", signature: true },
     { name: "Steak", price: "30$", img: "assests/steak.jpg", bg: "#8e44ad", description: "Premium grilled beef steak", signature: true },
     { name: "Salad", price: "10$", img: "assests/salad.jpg", bg: "#2ecc71", description: "Fresh mixed garden salad", signature: false },
     { name: "Cake", price: "5$", img: "assests/cake.jpg", bg: "#ff6699", description: "Chocolate layer cake slice", signature: false },
@@ -89,7 +89,7 @@ const foods = [
     { name: "Chicken Wings", price: "10$", img: "assests/chicken-wings.jpg", bg: "#f06292", description: "Buffalo style chicken wings", signature: false },
     { name: "Kebab", price: "15$", img: "assests/kebab.jpg", bg: "#c0392b", description: "Grilled meat kebab skewers", signature: false },
     { name: "Momos", price: "5$", img: "assests/momos.jpg", bg: "#4db6ac", description: "Steamed Tibetan dumplings", signature: true },
-    { name: "Pancakes", price: "10$", img: "assests/pancakes.jpg", bg: "#ffd54f", description: "Fluffy breakfast pancakes", signature: false }
+    { name: "Pancakes", price: "10$", img: "assests/pancakes.png", bg: "#ffd54f", description: "Fluffy breakfast pancakes", signature: false }
 ];
 
 let current = 0;
