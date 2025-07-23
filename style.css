@@ -3,11 +3,13 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
+
 html, body {
 height: 100%;
 overflow: hidden;
 font-family: Arial, sans-serif;
 }
+
 body {
 transition: background-color 0.5s ease;
 display: flex;
@@ -17,6 +19,7 @@ flex-direction: column;
 padding: 20px;
 text-align: center;
 }
+
 .food-image {
 width: 80%;
 max-width: 320px;
@@ -27,9 +30,26 @@ transition: transform 0.4s ease;
 transform-style: preserve-3d;
 perspective: 1000px;
 }
+
 .food-name {
 font-size: 1.5rem;
 margin-top: 1rem;
 color: #fff;
 text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+}
+
+.food-description, .food-price {
+color: #fff;
+margin-top: 10px;
+font-size: 1rem;
+}
+
+.signature-badge {
+margin-top: 10px;
+padding: 5px 10px;
+background-color: gold;
+color: black;
+font-weight: bold;
+border-radius: 10px;
+display: none;
 }
